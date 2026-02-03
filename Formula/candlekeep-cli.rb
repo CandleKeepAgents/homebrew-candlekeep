@@ -7,11 +7,11 @@ class CandlekeepCli < Formula
   on_macos do
     on_arm do
       url "https://github.com/CandleKeepAgents/candlekeep-cli/releases/download/v0.3.1/ck-aarch64-apple-darwin.tar.gz"
-      sha256 "cdb999c985e59bcbdece5ae3df4a43d0120addfa57a9484dc7d0695249a35a8b"
+      sha256 "66849e3675e494eb8fe48d2a4257626e32d97533fb634b396702c49fb7cb276c"
     end
     on_intel do
       url "https://github.com/CandleKeepAgents/candlekeep-cli/releases/download/v0.3.1/ck-x86_64-apple-darwin.tar.gz"
-      sha256 "3015c49e7450582032d72be87bcd99512d88886339eb7fed4caa8bb09b071d87"
+      sha256 "40758004f49f74c2aa8bcf07e5a2c97b9f334475c4cb76d9db8dc955978a9a5e"
     end
   end
 
