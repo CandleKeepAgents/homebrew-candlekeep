@@ -1,17 +1,17 @@
 class CandlekeepCli < Formula
   desc "CandleKeep CLI - Manage your document library from the terminal"
   homepage "https://www.getcandlekeep.com"
-  version "0.6.0"
+  version "0.7.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/CandleKeepAgents/candlekeep-cli/releases/download/v0.6.0/ck-aarch64-apple-darwin.tar.gz"
-      sha256 "43c77c5e31026bb9275174b0beefaca6975c1f96c54fe57f6bdf0b26ab88c7bd"
+      url "https://github.com/CandleKeepAgents/candlekeep/releases/download/cli-v0.7.0/ck-aarch64-apple-darwin.tar.gz"
+      sha256 "db1e24b422a1dd13c70acf30d5e03707ef0552c84e4c570436a398cf9e4e6ee3"
     end
     on_intel do
-      url "https://github.com/CandleKeepAgents/candlekeep-cli/releases/download/v0.6.0/ck-x86_64-apple-darwin.tar.gz"
-      sha256 "873e15c7ce69bb123f453330788b7b9a7dcb9d8218bfc8aae19cceecb0a14dcc"
+      url "https://github.com/CandleKeepAgents/candlekeep/releases/download/cli-v0.7.0/ck-x86_64-apple-darwin.tar.gz"
+      sha256 "5ffbef347ee2007c2cd308a53190de74b90ba905b56901af41171d9dc7e551ec"
     end
   end
 
